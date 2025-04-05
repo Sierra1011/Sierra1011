@@ -32,7 +32,7 @@ jobs:
 
       - name: Push assets to repo
         # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file>
-        uses: crazy-max/ghaction-github-pages@v3
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: main
           build_dir: dist
